@@ -1,0 +1,9 @@
+# TP1 Git - bouklikha-mohamed-amine
+
+1) La commande nous informe du statut actuel de la branch. Par exemple dans mon cas un fichier README.md a été créer dans le working directory etant donné que c'est en rouge.
+
+2) Cette fois si on nous indique en vert que le fichier README.md a bien été ajouter (nouveau fichier : README.md) dans le staging area.
+
+3) Ils sont tous ajouter dans le Staging area et ne sont plus dans le Working Directory.
+
+
