@@ -1,9 +1,15 @@
 # TP1 Git - bouklikha-mohamed-amine
 
-1) La commande nous informe du statut actuel de la branch. Par exemple dans mon cas un fichier README.md a été créer dans le working directory etant donné que c'est en rouge.
+1) La commande nous informe du statut actuel de la branch. Par exemple dans mon cas un fichier README.md a été créer dans le working directory etant donné que c'est en rouge
 
-2) Cette fois si on nous indique en vert que le fichier README.md a bien été ajouter (nouveau fichier : README.md) dans le staging area.
+2) Cette fois si on nous indique en vert que le fichier README.md a bien été ajouter (nouveau fichier : README.md) dans le staging area
 
-3) Ils sont tous ajouter dans le Staging area et ne sont plus dans le Working Directory.
+3) Ils sont tous ajouter dans le Staging area et ne sont plus dans le Working Directory
 
+4) git commit -m "Ajout des fichier README.md et reponses.txt" 
 
+5) J'ai utilisé la commande git log
+
+6) git difff affiche les différences entre le Working directory et le staging area alors que git diff --staged affiche les différences entre la staging area et le dernier commit
+
+7)
