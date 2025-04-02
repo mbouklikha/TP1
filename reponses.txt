@@ -16,3 +16,53 @@
 - git status : Cette commande permet de voir l'état actuel du projet : quels fichiers sont modifiés, ajoutés, en attente de commit
 - git diff : Affiche les différences entre plusieurs états des fichiers
 - git log : ça nous affiche l'historique des commits effectués sur la branche actuelle.
+
+8) git status
+Sur la branche develop
+Modifications qui seront validées :
+  (utilisez "git restore --staged <fichier>..." pour désindexer)
+	nouveau fichier : brouillon.txt
+	nouveau fichier : fichier1.txt
+
+9) La commande git reset permet d'annuler l'ajout du fichier dans le staging area et donc de le renvoyer vers le Working Directory.
+
+10) Pour vérifier que le fichier brouillon.txt n'a pas été ajouté dans le staging area, on fais un git status et on regarde si le fichiers et non suivis et de couleurs rouge. Ce qui est le cas ici.
+Après un commit du fichier1.txt on nous affiche que on ne peut pas ajouté de commit comme il y a un fichier non suivis qui est brouillon.txt
+
+11) J'ai vérifier cela avec git log, git status et git diff et tout semble correct
+
+12) J'ai utilisé la commande git log origin/develop
+
+13) git clone https://github.com/PaulineLam24/TP-Git.git
+
+14) ls
+brouillon.txt  fichier1.txt  README.md	reponses.txt  TP-Git
+
+Ensuite pour voir les commit du TP-Git : 
+
+- Initial commit
+- Ajout dans README.md
+-  Correctif README.md
+
+
+cd TP-Git
+git log 
+
+15) 
+
+-Entre 9b68(Initial commit) et f7a7 (Ajout dans README.md)
+	Ajout d'une deuxième ligne dans README.md contenant :
+	# Ceci est un fichier README.md...
+	Commande utilisée :
+	git diff 9b68 f7a7
+	
+-Entre f7a7 (Ajout dans README.md) et f8138d70 (Correctif README.md)
+	Correction de la mise en forme de la deuxième ligne du README.md pour qu'elle s'affiche comme du texte et non comme un titre.
+	Commande utilisée :
+	git diff f7a7 f813
+	
+-Entre 9b68 (Initial commit) et f813 (Correctif README.md)
+	Ajout du texte Ceci est un fichier README.md... dans le README.md, avec correction de mise en forme.
+	Commande utilisée :
+	git diff 9b68 f813
+
